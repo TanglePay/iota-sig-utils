@@ -1,0 +1,39 @@
+{
+    "name": "iota-sig-utils",
+    "version": "0.0.1",
+    "description": "A collection of signature, secure utilities for crypto networks in IOTA ",
+    "main": "dist/index.js",
+    "scripts": {
+        "build": "webpack"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/TanglePay/iota-sig-utils.git"
+    },
+    "keywords": [
+        "TanglePay",
+        "Dapp",
+        "Iota",
+        "wallet",
+        "verifySignature"
+    ],
+    "author": "TanglePay",
+    "license": "Apache-2.0",
+    "bugs": {
+        "url": "https://github.com/TanglePay/iota-sig-utils/issues"
+    },
+    "homepage": "https://github.com/TanglePay/iota-sig-utils#readme",
+    "devDependencies": {
+        "@babel/core": "^7.17.10",
+        "@babel/plugin-transform-runtime": "^7.17.10",
+        "@babel/preset-env": "^7.17.10",
+        "babel-loader": "^8.2.5",
+        "clean-webpack-plugin": "^4.0.0",
+        "webpack": "^5.72.1",
+        "webpack-cli": "^4.9.2"
+    },
+    "dependencies": {
+        "@iota/crypto.js": "^1.8.6",
+        "@iota/util.js": "^1.8.6"
+    }
+}
